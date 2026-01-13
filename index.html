@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aziz Toolkit</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- External Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Aziz Toolkit</h1>
+      <p class="subtitle">
+        Discover the most powerful tools and resources curated for speed and productivity.
+      </p>
+    </header>
+
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-value" id="totalTools">0</span>
+        <span class="stat-label">Total Tools</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="visibleTools">0</span>
+        <span class="stat-label">Showing</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" id="uniqueCategories">0</span>
+        <span class="stat-label">Categories</span>
+      </div>
+    </div>
+
+    <div class="controls-container">
+      <div class="search-wrapper">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="Search thousands of AI tools..." autocomplete="off" />
+      </div>
+      <div class="category-filter" id="categoryFilter">
+        <!-- Categories filled by JS -->
+      </div>
+    </div>
+
+    <main class="tools-grid" id="toolsGrid">
+      <!-- Tools filled by JS -->
+    </main>
+
+    <footer>
+      <p>
+        Aziz Toolkit. Created by
+        <a href="https://github.com/abdelazizmarhoum" target="_blank">Marhoum Abdelaziz</a>
+      </p>
+      <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">
+        Code available at
+        <a href="https://github.com/abdelazizmarhoum/aziz-toolkit.git" target="_blank"
+          style="color: var(--accent-secondary); text-decoration: none;">
+          <i class="fab fa-github"></i> github.com/abdelazizmarhoum/aziz-toolkit
+        </a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Application Script -->
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
