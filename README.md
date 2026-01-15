@@ -8,7 +8,7 @@ Aziz Toolkit is a premium, high-performance web directory curated to provide dev
 
 ## View live 
 
-(https://aziz-toolkit.vercel.app/)
+https://aziz-toolkit.vercel.app/
 
 ## ✨ Features
 
