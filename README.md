@@ -7,9 +7,8 @@ Aziz Toolkit is a premium, high-performance web directory curated to provide dev
 ![Vanilla JS](https://img.shields.io/badge/Logic-Vanilla--JS-yellow)
 
 ## View live 
-```bash
-    https://aziz-toolkit.vercel.app/
-```
+
+(https://aziz-toolkit.vercel.app/)
 
 ## ✨ Features
 
